@@ -1,0 +1,11 @@
+|----------------------------------------------------------------------------------------------------
+|Variable name | Description           | Type          | Comments
+|----------------------------------------------------------------------------------------------------
+|Temp          | Measured body         | Continuous    | Variable is currently continuous
+|              | temperature in        |               | and will remain in this format
+|              | degrees Celsius       |               |
+|----------------------------------------------------------------------------------------------------
+|Activ         | Indicator of activity | Categorical   | Variable is continuous and needs
+|              | outside the retreat   | dichotomous   | to be converted to a categorical
+|              |                       |               | dichotomous
+|---------------------------------------------------------------------------------------------------
