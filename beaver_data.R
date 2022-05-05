@@ -50,8 +50,10 @@ with(beaver2_data, {qqnorm(temp[activity == "no"],
   qqline(temp[activity == "no"])})
 
 with(beaver2_data, {qqnorm(temp[activity == "yes"], 
-                           main = "Inactive data") 
+                           main = "Active data") 
   qqline(temp[activity == "yes"])})
 
 normality_test <- with(beaver2_data, tapply(temp, activity, shapiro.test))
 normality_test
+
+wilcox.test(beaver2_data$temp~beaver2_data$activity)
